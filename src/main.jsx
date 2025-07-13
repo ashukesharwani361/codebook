@@ -6,7 +6,7 @@ import { ToastContainer } from 'react-toastify';
 
 import ScrollToTop from "./components/Other/ScrollToTop.jsx";
 import { CartProvider } from './context/CartContext.jsx';
-import { FilterProvider } from './context/filterContext.jsx';
+import { FilterProvider } from './context/FilterContext.jsx';
 import './index.css'
 import App from './App.jsx'
 
