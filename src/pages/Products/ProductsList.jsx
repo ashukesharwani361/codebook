@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ProductCard from "../../components/Elements/ProductCard";
 import FilterBar from "./components/FilterBar";
-import { useFilter } from "../../context/filterContext";
+import { useFilter } from "../../context/FilterContext";
 import { getProductList } from "../../services/productService";
 import { toast } from "react-toastify";
 

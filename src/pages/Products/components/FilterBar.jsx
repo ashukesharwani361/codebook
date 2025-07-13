@@ -1,4 +1,4 @@
-import { useFilter } from "../../../context/filterContext";
+import { useFilter } from "../../../context/FilterContext";
 
 export default function FilterBar({ setShow }) {
 
