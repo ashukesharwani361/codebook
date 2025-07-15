@@ -59,10 +59,6 @@ export const FilterProvider = ({children}) => {
         return products;
     }
 
-    function clear() {
-        return state.productList;
-    }
-
     const filteredProductList = rating(sort(inStock(bestSeller(state.productList))));
     
     const value = {
