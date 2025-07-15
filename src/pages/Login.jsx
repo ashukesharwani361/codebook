@@ -27,8 +27,8 @@ const Login = () => {
   }
 
   async function handleLoginGuest() {
-    email.current.value = "ashu@gmail.com";
-    password.current.value = "reactapp";
+    email.current.value = import.meta.env.VITE_REACT_APP_GUEST_LOGIN;
+    password.current.value = import.meta.env.VITE_REACT_APP_GUEST_PASSWORD;
 
     try {
       const authDetail = {
